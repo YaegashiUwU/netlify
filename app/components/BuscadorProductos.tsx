@@ -2,7 +2,7 @@
 'use client';
 import { useState } from 'react';
 import productos, { Producto } from '../data/productos';
-import '../styles/buscador.css'; // opcional, si usas CSS externo
+import '../styles/buscador.css';
 
 const BuscadorProductos = () => {
   const [busqueda, setBusqueda] = useState('');
